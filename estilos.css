@@ -355,13 +355,12 @@ font-family: sans-serif;
   border-radius: 10px;
   display: block;  
 }
+.img-filete{
+  padding-top: -5rem;
+}
 .img-filete img{
   padding-top: 1rem;
-  max-width: 100%;  /* que no se pase del ancho de la columna */
-  height: 80%;     /* mantener proporción */
-  margin: auto;
-  border-radius: 10px;
-  display: block;  
+
 }
 
 }
