@@ -345,6 +345,15 @@ font-family: sans-serif;
     inset-inline-start: 3rem;
   }
  
-  
+    .trattoria{
+  padding: 5rem 2rem;
+}
+
+.trattoria img{
+  max-width: 100%;  /* que no se pase del ancho de la columna */
+  height: auto;     /* mantener proporción */
+  border-radius: 10px;
+  display: block;  
+}
 
 }
