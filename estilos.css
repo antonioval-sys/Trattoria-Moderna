@@ -274,6 +274,7 @@ footer{
   display: flex;
 }
 .footer-link{
+  gap: 1rem;
   list-style: none;
 color: #fff;
 display: flex;
