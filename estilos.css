@@ -269,6 +269,7 @@ font-family: sans-serif;
 .footer-content p{
   color: #fff;
   display: flex;
+  width: 100%;
 }
 .footer-links{
   list-style: none;
