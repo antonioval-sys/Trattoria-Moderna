@@ -264,10 +264,6 @@ font-family: sans-serif;
 footer{
    background-color: #000000;
 }
-.footer-content{
-  display: grid;
-    grid-template: ;
-}
 .footer-content p{
   font-size: 2rem;
   color: #fff;
