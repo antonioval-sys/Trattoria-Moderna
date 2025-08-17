@@ -264,19 +264,24 @@ font-family: sans-serif;
 footer{
    background-color: #000000;
 }
-.footer-content p{
+.footer-content{
+  display: grid;
+ grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+.footer-derechos p{
   font-size: 2rem;
   color: #fff;
   display: flex;
 }
 .footer-link{
-  gap: 1rem;
   list-style: none;
 color: #fff;
 display: flex;
 }
 
 .footer-link a {
+  gap: 1rem;
   font-size: 2rem;
   display: flex;
   color: #fff;
