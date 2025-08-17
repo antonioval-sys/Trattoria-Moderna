@@ -269,9 +269,9 @@ footer{
     grid-template-columns: 1fr 1fr ;
 }
 .footer-content p{
+  font-size: 2rem;
   color: #fff;
   display: flex;
-  width: 100%;
 }
 .footer-link{
   list-style: none;
@@ -280,6 +280,7 @@ display: flex;
 }
 
 .footer-link a {
+  font-size: 2rem;
   display: flex;
   color: #fff;
   text-decoration: none;
