@@ -275,9 +275,8 @@ footer{
   display: flex;
 }
 .footer-link{
-  list-style: none;
-color: #fff;
 display: flex;
+ gap: 1rem;
 }
 
 .footer-link a {
@@ -292,6 +291,12 @@ display: flex;
 
 .footer-link a:hover {
   opacity: 0.8;
+}
+
+.footer-ul{
+  display: flex;
+  gap: 1rem;
+  list-style: none;
 }
 
 @media (max-width: 1080px) {
