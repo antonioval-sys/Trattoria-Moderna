@@ -261,10 +261,12 @@ font-family: sans-serif;
   border-radius: 10px;
   display: block;  
 }
-
+footer{
+   background-color: #000000;
+}
 .footer-content{
-  background-color: #000000;
   display: grid;
+    grid-template-columns: 1fr 1fr ;
 }
 .footer-content p{
   color: #fff;
@@ -276,8 +278,8 @@ font-family: sans-serif;
 color: #fff;
 display: flex;
 }
+
 .footer-link a {
-  list-style: none;
   display: flex;
   color: #fff;
   text-decoration: none;
