@@ -271,12 +271,12 @@ font-family: sans-serif;
   display: flex;
   width: 100%;
 }
-.footer-links{
+.footer-link{
   list-style: none;
 color: #fff;
 display: flex;
 }
-.footer-links a {
+.footer-link a {
   list-style: none;
   display: flex;
   color: #fff;
@@ -285,7 +285,7 @@ display: flex;
   transition: all 0.2s;
 }
 
-.footer-links a:hover {
+.footer-link a:hover {
   opacity: 0.8;
 }
 
