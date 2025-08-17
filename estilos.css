@@ -283,7 +283,6 @@ display: flex;
   text-decoration: none;
   font-weight: 500;
   transition: all 0.2s;
-  color: #fff;
 }
 
 .footer-links a:hover {
