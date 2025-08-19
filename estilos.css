@@ -263,20 +263,18 @@ font-family: sans-serif;
 }
 footer{
    background-color: #000000;
+   padding: 1.5 rem 2rem;
 }
 .footer-content{
   display: grid;
- grid-template-columns: 1fr 1fr;
- align-items: center;
+ grid-template-columns: 1fr auto;
   gap: 1rem;
+  align-items: center;
 }
 .footer-derechos p{
   font-size: 1.2rem;
   color: #fff;
-}
-.footer-link{
-display: flex;
- gap: 1rem;
+  justify-content: center;
 }
 
 .footer-link a {
@@ -285,6 +283,7 @@ display: flex;
   text-decoration: none;
   font-weight: 500;
   transition: all 0.2s;
+  justify-content: center;
 }
 
 .footer-link a:hover {
