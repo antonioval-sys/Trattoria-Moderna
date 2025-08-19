@@ -267,12 +267,12 @@ footer{
 .footer-content{
   display: grid;
  grid-template-columns: 1fr 1fr;
+ align-items: center;
   gap: 1rem;
 }
 .footer-derechos p{
-  font-size: 2rem;
+  font-size: 1.2rem;
   color: #fff;
-  display: flex;
 }
 .footer-link{
 display: flex;
@@ -280,9 +280,7 @@ display: flex;
 }
 
 .footer-link a {
-  gap: 1rem;
-  font-size: 2rem;
-  display: flex;
+  font-size: 1.2rem;
   color: #fff;
   text-decoration: none;
   font-weight: 500;
