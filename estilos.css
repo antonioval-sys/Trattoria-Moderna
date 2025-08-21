@@ -263,11 +263,11 @@ font-family: sans-serif;
 }
 footer{
    background-color: #000000;
-   padding: 1.5 rem 2rem;
+   padding: 1.5rem 2rem;
 }
 .footer-content{
   display: grid;
- grid-template-columns: 1fr auto;
+ grid-template-columns: 1fr 1fr;
   gap: 1rem;
   align-items: center;
 }
