@@ -270,28 +270,27 @@ footer{
  grid-template-columns: 1fr 1fr;
   gap: 1rem;
   align-items: center;
+   justify-content: center;
 }
 .footer-derechos p{
   font-size: 1.2rem;
   color: #fff;
-  justify-content: center;
 }
 
-.footer-link a {
+.footer-ul a {
   font-size: 1.2rem;
   color: #fff;
   text-decoration: none;
   font-weight: 500;
   transition: all 0.2s;
-  justify-content: center;
 }
 
-.footer-link a:hover {
+.footer-ul a:hover {
   opacity: 0.8;
 }
 
 .footer-ul{
-  display: flex;
+  display: flex; 
   gap: 1rem;
   list-style: none;
 }
