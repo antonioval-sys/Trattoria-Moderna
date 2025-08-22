@@ -267,7 +267,7 @@ footer{
 }
 .footer-content{
   display: grid;
- grid-template-columns: 1fr 1fr;
+ grid-template-columns: 1fr 1fr 1fr;
   gap: 1rem;
   align-items: center;
    
@@ -300,10 +300,21 @@ footer{
 .footer-ul a:hover {
   opacity: 0.8;
 }
+.footer-img{
+  display: flex;
+  justify-content: center;
+gap: 3rem;
+}
+.footer-img img{
+  width: 3rem;
+  gap: 3rem;
+  align-items: center;
+}
 
 @media (max-width: 1080px) {
   .menu-btn {
     display: block;
+    gap: 1rem;
   }
    .dis {
     grid-template-columns: 1fr; /* una sola columna */
