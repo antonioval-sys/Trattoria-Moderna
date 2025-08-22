@@ -407,9 +407,23 @@ footer{
 .especial-contacto p{
    padding: 1rem 2rem;
 }
+.footer-content{
+ grid-template-columns:  1fr;
+ text-align: center;
+}
 footer{
   font-size: 5rem;
 }
-
-
+.footer-derechos p{
+padding-top: 3rem;
+padding-bottom: -1rem;
+margin: 0;
+}
+.footer-ul{
+  display: flex;
+  list-style: none;
+  padding-bottom: 2rem;
+  margin : 0;
+  gap: 1rem;
+}
 }
