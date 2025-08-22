@@ -412,17 +412,17 @@ footer{
  text-align: center;
 }
 footer{
-  font-size: 1.2rem;
+  font-size: 2rem;
 }
 .footer-derechos p{
-padding-top: 3rem;
-padding-bottom: -1rem;
+padding-top: 1rem;
+
 margin: 0;
 }
 .footer-ul{
   display: flex;
   list-style: none;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
   margin : 0;
   gap: 1rem;
 }
