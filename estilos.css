@@ -270,12 +270,24 @@ footer{
  grid-template-columns: 1fr 1fr;
   gap: 1rem;
   align-items: center;
-   justify-content: center;
+   
 }
 .footer-derechos p{
   font-size: 1.2rem;
   color: #fff;
+ text-align: center;
 }
+
+.footer-ul{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+   gap: 1rem;
+}
+.footer-ul li{
+  margin:0 0.7rem }
 
 .footer-ul a {
   font-size: 1.2rem;
@@ -287,12 +299,6 @@ footer{
 
 .footer-ul a:hover {
   opacity: 0.8;
-}
-
-.footer-ul{
-  display: flex; 
-  gap: 1rem;
-  list-style: none;
 }
 
 @media (max-width: 1080px) {
@@ -401,7 +407,9 @@ footer{
 .especial-contacto p{
    padding: 1rem 2rem;
 }
-
+footer{
+  font-size: 5rem;
+}
 
 
 }
