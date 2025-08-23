@@ -301,6 +301,7 @@ footer{
   opacity: 0.8;
 }
 .footer-img{
+  list-style: none;
   display: flex;
   justify-content: center;
 gap: 3rem;
