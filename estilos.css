@@ -312,7 +312,7 @@ gap: 3rem;
   align-items: center;
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 767px) {
   .menu-btn {
     display: block;
     gap: 1rem;
