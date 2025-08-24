@@ -428,6 +428,7 @@ gap: 3rem;
 }
 
 .trattoria img, .img-filete img{
+  padding-block-start: 1rem;
   max-inline-size: 100%;  /* que no se pase del ancho de la columna */
   block-size: auto;     /* mantener proporción */
   border-radius: 10px;
