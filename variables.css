@@ -17,10 +17,10 @@
         --font-size-p:2.2rem;
 
     /*Tamaño tipografia resposive*/
-        --font-size-reponsive-h1:5rem;
-      --font-size-resposive-h2:4rem;
-       --font-size-responsive-h3:3rem;
-        --font-size-responsive-p:2.2rem;
+        --font-size-reponsive-h1:1.8rem;
+      --font-size-resposive-h2:1.5rem;
+       --font-size-responsive-h3:1.3rem;
+        --font-size-responsive-p:1rem;
 
         /*Espaciados*/
         --espacio-xs:0.5rem;

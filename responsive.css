@@ -78,16 +78,16 @@
     font-size: 2rem;
   }
   .nosotros h2{
-    font-size: 1.8rem;
+    font-size: var(--font-size-resposive-h2);
   }
   .nosotros p{
-    font-size: 1rem;
+    font-size: var(--font-size-resposive-p);
   }
   .servicio h2{
-    font-size: 1.8rem;
+    font-size: var(--font-size-resposive-h2);
   }
   .servicio p{
-    font-size: 1rem;
+    font-size: var(--font-size-resposive-p);
   }
   .servicios-imagen {
     display: flex;
@@ -104,7 +104,7 @@
 
   .servicios{
     gap: 1.4rem;
-    font-size: 1.1rem;
+    font-size: var(--font-size-resposive-p);
   }
 
   .trattoria{
@@ -125,12 +125,12 @@
 
 .especial-contacto h2{
  padding: 1rem;
- font-size: 1.5rem;
+ font-size: var(--font-size-resposive-h2);
 }
 
 .especial-contacto p{
    padding: 1rem;
-   font-size: 1rem;
+   font-size: var(--font-size-resposive-p);
 }
 .footer-content{
  grid-template-columns:  1fr;
@@ -140,6 +140,7 @@ footer{
   font-size: 1rem;
 }
 .footer-derechos p{
+  font-size: var(--font-size-resposive-p);
 padding-block-start: 1rem;
 margin: 0;
 }
