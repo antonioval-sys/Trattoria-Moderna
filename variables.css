@@ -1,0 +1,35 @@
+:root{
+    /*colores principales*/
+    --color-primario:#FF6917; /* Naranja para detalles*/
+    --color-secundario:#000000; /*Fondo obscuro*/
+    --color-texto:#ffffff; /*Texto*/
+    --color-gris:#080505cb; /*Color gris*/
+    --color-hover: #ffa45b; /*Color hover botones, enlace*/
+
+    /*Tipografia*/
+    --fuente-principal: "Segoe UI", sans-serif;
+     --fuente-titulos: "Georgia", serif;
+
+     /*Tamaño tipografia*/
+     --font-size-h1:5rem;
+      --font-size-h2:4rem;
+       --font-size-h3:3rem;
+        --font-size-p:2.2rem;
+
+    /*Tamaño tipografia resposive*/
+        --font-size-reponsive-h1:5rem;
+      --font-size-resposive-h2:4rem;
+       --font-size-responsive-h3:3rem;
+        --font-size-responsive-p:2.2rem;
+
+        /*Espaciados*/
+        --espacio-xs:0.5rem;
+        --espacio-sm:1rem;
+        --espacio-md: 2rem;
+        --espacio-lg: 3rem;
+        
+        /*Borde y sombras*/
+        --borde-radio: 0.5rem;
+        --sombra-suave:0 2px 10px rgba(0,0,0,0.1)
+
+}
