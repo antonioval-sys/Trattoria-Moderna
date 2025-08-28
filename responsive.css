@@ -51,6 +51,16 @@
     text-align: center;
     padding: 2rem 1rem;
   }
+  .superior {
+  display: flex;
+  inline-size: 100%;
+  position: relative;
+  block-size: 20rem;
+  background-size: cover;
+  background-position: center;
+  padding-block-start: 3rem;
+  z-index: 0;
+}
 
   .ce {
     font-size: 2rem;
