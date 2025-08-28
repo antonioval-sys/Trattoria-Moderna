@@ -21,6 +21,8 @@
       --font-size-resposive-h2:1.5rem;
        --font-size-responsive-h3:1.3rem;
         --font-size-responsive-p:1rem;
+        --font-size-resposive-a:1.2rem;
+        --font-size-botton:0.8rem;
 
         /*Espaciados*/
         --espacio-xs:0.5rem;
@@ -30,6 +32,7 @@
         
         /*Borde y sombras*/
         --borde-radio: 1rem;
+        --border-radio-responsive: 0.5rem;
         --sombra-suave:0 2px 10px rgba(0,0,0,0.2)
 
 }
