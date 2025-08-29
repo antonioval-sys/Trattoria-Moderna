@@ -4,7 +4,7 @@
   color: #fff;
   font-family: sans-serif;
   position: absolute;
-  font-size: 5rem;
+  font-size: 4rem;
   inset-block-start: 13rem;
   inset-inline-start: 5rem;
 
@@ -14,7 +14,7 @@
   display: flex;
   inline-size: 100%;
   position: relative;
-  block-size: 60rem;
+  block-size: 55rem;
   background: url(imagenes/espagueti.jpg)no-repeat center center;
   background-size: cover;
   background-position: center;

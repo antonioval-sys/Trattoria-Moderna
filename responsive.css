@@ -55,7 +55,7 @@
   display: flex;
   inline-size: 100%;
   position: relative;
-  block-size: 20rem;
+  block-size: 30rem;
   background-size: cover;
   background-position: center;
   padding-block-start: 3rem;
@@ -66,7 +66,7 @@
     font-size: 2rem;
     position: relative;
     inset-inline-start: 0;
-    inset-block-start: 0;
+    inset-block-start: 1rem;
     margin: 1rem auto;
     text-align: center;
    
@@ -104,6 +104,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    gap:15%;
   }
 
   .servicios-imagen img{
@@ -115,7 +116,7 @@
   .servicios{
     align-items: center;
     justify-content: center;
-    gap: 2rem;
+    gap: 1rem;
     font-size: var(--font-size-resposive-a);
   }
 
