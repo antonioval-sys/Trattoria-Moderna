@@ -164,3 +164,31 @@ font-family: sans-serif;
   border-radius: 10px;
   display: block;  
 }
+
+/*Nosotros*/
+.primero{
+  display: grid;
+    grid-template-columns: 1fr 1fr ;      /* Espacio entre divs */
+  position: relative;
+  inline-size: 90%;
+ max-inline-size: 1440px;
+ margin: 0 auto;
+}
+
+.segundo{
+  display: grid;
+    grid-template-columns: 1fr 1fr ;      /* Espacio entre divs */
+  position: relative;
+  inline-size: 90%;
+ max-inline-size: 1440px;
+ margin: 0 auto;
+}
+
+.tercero{
+  display: grid;
+    grid-template-columns: 1fr 1fr ;      /* Espacio entre divs */
+  position: relative;
+  inline-size: 90%;
+ max-inline-size: 1440px;
+ margin: 0 auto;
+}
