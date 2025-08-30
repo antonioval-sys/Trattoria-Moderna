@@ -56,7 +56,7 @@
   color: #fff;
 font-size: var(--font-size-h2); 
 font-family: var(--fuente-principal);
- padding: 2rem 2rem;
+ padding: 1rem 2rem;
 }
 
 .nosotros p{
@@ -72,8 +72,6 @@ font-family: var(--fuente-principal);
    list-style: none;
      display: flex;
   flex-direction: column;
-  justify-content: center;
-  
 }
 
 .servicio h2{
@@ -149,13 +147,13 @@ display: flex;
   color: #fff;
 font-size: var(--font-size-h2); 
 font-family: var(--fuente-principal);
- padding: 2rem 2rem;
+ padding: 1rem 2rem;
 }
 
 .especial-contacto p{
   font-size: var(--font-size-p);
   font-family: var(--fuente-principal);
-   padding: 2rem 2rem;
+   padding: 0rem 2rem;
    position: relative;
    color: #fff;
 }
@@ -167,9 +165,9 @@ font-family: var(--fuente-principal);
   padding: 0rem 2rem;
 }
 .img-filete img{
-  padding-block-start: 15rem;
+  padding-block-start: 1rem;
   max-inline-size: 100%;  /* que no se pase del ancho de la columna */
-  block-size: 80%;     /* mantener proporción */
+  block-size: 50%;     /* mantener proporción */
   margin: auto;
   border-radius: var(--borde-radio);
   display: block;  
