@@ -180,7 +180,13 @@ font-family: sans-serif;
  max-inline-size: 1440px;
  margin: 0 auto;
 }
+.primero h2{
+  font-size: var( --font-size-h2);
+}
 
+.primero p{
+  font-size: var( --font-size-p);
+}
 .segundo{
   display: grid;
     grid-template-columns: 1fr 1fr ;      /* Espacio entre divs */
@@ -189,7 +195,13 @@ font-family: sans-serif;
  max-inline-size: 1440px;
  margin: 0 auto;
 }
+.segundo h2{
+  font-size: var( --font-size-h2);
+}
 
+.segundo p{
+  font-size: var( --font-size-p);
+}
 .tercero{
   display: grid;
     grid-template-columns: 1fr 1fr ;      /* Espacio entre divs */
@@ -197,4 +209,12 @@ font-family: sans-serif;
   inline-size: 90%;
  max-inline-size: 1440px;
  margin: 0 auto;
+}
+
+.tercero h2{
+  font-size: var( --font-size-h2);
+}
+
+.tercero p{
+  font-size: var( --font-size-p);
 }
