@@ -95,7 +95,7 @@ font-family: var(--fuente-principal);
 }
 
 .servicios-imagen img {
-  inline-size: 10rem;
+  inline-size: 5rem;
   gap: 2rem;
   block-size: auto;  /* Mantiene proporción */
   display: block; /* Para evitar espacios en línea extra */
@@ -109,7 +109,7 @@ font-family: var(--fuente-principal);
 .servicios{
   font-family: var(--fuente-principal);
 display: flex;
-  gap: 4rem;
+  gap: 5rem;
   list-style: none;
   padding: 0 2rem;
   margin: 0;
