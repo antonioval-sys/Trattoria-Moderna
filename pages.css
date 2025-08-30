@@ -166,6 +166,9 @@ font-family: sans-serif;
 }
 
 /*Nosotros*/
+.sobre{
+  justify-content: center;
+}
 .primero{
   display: grid;
     grid-template-columns: 1fr 1fr ;      /* Espacio entre divs */
