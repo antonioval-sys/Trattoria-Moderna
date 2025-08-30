@@ -161,10 +161,8 @@ font-family: var(--fuente-principal);
   font-family: var(--fuente-principal);
   list-style: none;
 }
-.img-filete{
-  padding: 0rem 2rem;
-}
-.img-filete img{
+
+.des img{
   padding-block-start: 1rem;
   max-inline-size: 100%;  /* que no se pase del ancho de la columna */
   block-size: 50%;     /* mantener proporción */
