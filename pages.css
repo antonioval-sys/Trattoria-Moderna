@@ -183,6 +183,9 @@ font-family: sans-serif;
 .primero h2{
   font-size: var( --font-size-h2);
 }
+.primero img{
+  border-radius: var(--borde-radio);
+}
 
 .primero p{
   font-size: var( --font-size-p);
@@ -202,6 +205,9 @@ font-family: sans-serif;
 .segundo p{
   font-size: var( --font-size-p);
 }
+.segundo img{
+  border-radius: var(--borde-radio);
+}
 .tercero{
   display: grid;
     grid-template-columns: 1fr 1fr ;      /* Espacio entre divs */
@@ -217,4 +223,7 @@ font-family: sans-serif;
 
 .tercero p{
   font-size: var( --font-size-p);
+}
+.tercero img{
+  border-radius: var(--borde-radio);
 }
