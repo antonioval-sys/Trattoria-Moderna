@@ -167,7 +167,7 @@ font-family: sans-serif;
 
 /*Nosotros*/
 .sobre{
-  justify-content: center;
+  justify-items: center;
 }
 .primero{
   display: grid;
