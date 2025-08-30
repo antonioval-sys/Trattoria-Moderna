@@ -37,7 +37,7 @@
 .trattoria img{
   max-inline-size: 100%;  /* que no se pase del ancho de la columna */
   block-size: auto;     /* mantener proporción */
-  border-radius: 10px;
+  border-radius: var(--borde-radio);
   display: block;  
 }
 .nosotros-servicio{
@@ -161,7 +161,7 @@ font-family: sans-serif;
   max-inline-size: 100%;  /* que no se pase del ancho de la columna */
   block-size: 80%;     /* mantener proporción */
   margin: auto;
-  border-radius: 10px;
+  border-radius: var(--borde-radio);
   display: block;  
 }
 
