@@ -163,9 +163,9 @@ font-family: var(--fuente-principal);
 }
 
 .des img{
-  padding-block-start: 1rem;
+  padding: 2rem;
   max-inline-size: 100%;  /* que no se pase del ancho de la columna */
-  block-size: 50%;     /* mantener proporción */
+  block-size: 30rem;     /* mantener proporción */
   margin: auto;
   border-radius: var(--borde-radio);
   display: block;  
