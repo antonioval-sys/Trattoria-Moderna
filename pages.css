@@ -34,6 +34,7 @@
 .trattoria{
   font-family: var(--fuente-principal);
   padding: 5rem 2rem;
+   block-size: 30rem;
 }
 
 .trattoria img{
