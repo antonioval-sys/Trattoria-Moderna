@@ -23,6 +23,7 @@
 }
 
 .dis{
+  font-family: var(--fuente-principal);
    display: grid;  /* Pone los hijos en fila */
   grid-template-columns: 1fr 1fr ;      /* Espacio entre divs */
   position: relative;
@@ -31,6 +32,7 @@
  margin: 0 auto;
 }
 .trattoria{
+  font-family: var(--fuente-principal);
   padding: 11rem 2rem;
 }
 
@@ -128,6 +130,7 @@ display: flex;
 }
 
 .des{
+  font-family: var(--fuente-principal);
   display: grid;
   position: relative;
    inline-size: 90%;
