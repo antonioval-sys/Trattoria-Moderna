@@ -193,6 +193,7 @@ font-family: var(--fuente-principal);
   font-size: var( --font-size-h2);
 }
 .primero img{
+  padding: 1rem;
   border-radius: var(--borde-radio);
 }
 
@@ -215,6 +216,7 @@ font-family: var(--fuente-principal);
   font-size: var( --font-size-p);
 }
 .segundo img{
+  padding: 1rem;
   border-radius: var(--borde-radio);
 }
 .tercero{
