@@ -233,6 +233,7 @@ font-family: var(--fuente-principal);
 .tercero p{
   font-size: var( --font-size-p);
 }
-.tercero img{
+.tercero img{ 
+  padding: 1rem;
   border-radius: var(--borde-radio);
 }
