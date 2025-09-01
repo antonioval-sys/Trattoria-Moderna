@@ -82,47 +82,46 @@ font-family: var(--fuente-principal);
  padding: 2rem 2rem;
 }
 
-.servicios-imagen {
-  font-family: var(--fuente-principal);
+.servicios-combinados {
   display: flex;
-  gap: 3rem;
+  gap: 2rem;
   list-style: none;
   padding: 0;
   margin: 0 2rem;
   transition: all 0.3s ease;
 }
 
-.servicios-imagen img {
-  inline-size: 5rem;
+.servicios-combinados li a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+}
+
+.servicios-combinados img {
+   inline-size: 8rem;
   gap: 2rem;
-  block-size: auto;  /* Mantiene proporción */
-  display: block; /* Para evitar espacios en línea extra */
+  block-size: auto; /* Mantiene proporción */
+  display: block;
   margin-block-end: 0.9rem;
   transition: all 0.2s ease;
 }
-.servicios-imagen img:hover {
+
+.servicios-combinados img:hover {
   opacity: 0.8;
   transform: translateY(-0.3rem);
 }
-.servicios{
-  font-family: var(--fuente-principal);
-display: flex;
-  gap: 5rem;
-  list-style: none;
-  padding: 0 2rem;
-  margin: 0;
-   transition: all 0.3s ease;
-}
 
-.servicios a{
+.servicios-combinados a{
   font-family: var(--fuente-principal);
-  display: flex;
   color: #fff;
   text-decoration: none;  
    transition: all 0.2s ease;
    font-size: var(--font-size-a);
-}
-.servicios a:hover {
+} 
+
+.servicios-combinados a:hover {
   opacity: 0.8;
   transform: translateY(-0.3rem);
 }
@@ -200,5 +199,5 @@ font-family: var(--fuente-principal);
 .primero p, .segundo p, .tercero p{
   font-size: var( --font-size-p);
 }
-/**contacto */
+/*contacto*/
 
