@@ -181,7 +181,7 @@ font-family: var(--fuente-principal);
 .sobre h1{
   font-size: var(--font-size-h1);
 }
-.primero{
+.primero, .segundo, .tercero{
   display: grid;
     grid-template-columns: 1fr 1fr ;      /* Espacio entre divs */
   position: relative;
@@ -189,53 +189,16 @@ font-family: var(--fuente-principal);
  max-inline-size: 1440px;
  margin: 0 auto;
 }
-.primero h2{
+.primero h2, .segundo h2, .tercero h2{
   font-size: var( --font-size-h2);
 }
-.primero img{
+.primero img, .segundo img, .tercero img{
   padding: 1rem;
   border-radius: var(--borde-radio);
 }
 
-.primero p{
+.primero p, .segundo p, .tercero p{
   font-size: var( --font-size-p);
 }
-.segundo{
-  display: grid;
-    grid-template-columns: 1fr 1fr ;      /* Espacio entre divs */
-  position: relative;
-  inline-size: 90%;
- max-inline-size: 1440px;
- margin: 0 auto;
-}
-.segundo h2{
-  font-size: var( --font-size-h2);
-}
+/**contacto */
 
-.segundo p{
-  font-size: var( --font-size-p);
-}
-.segundo img{
-  padding: 1rem;
-  border-radius: var(--borde-radio);
-}
-.tercero{
-  display: grid;
-    grid-template-columns: 1fr 1fr ;      /* Espacio entre divs */
-  position: relative;
-  inline-size: 90%;
- max-inline-size: 1440px;
- margin: 0 auto;
-}
-
-.tercero h2{
-  font-size: var( --font-size-h2);
-}
-
-.tercero p{
-  font-size: var( --font-size-p);
-}
-.tercero img{ 
-  padding: 1rem;
-  border-radius: var(--borde-radio);
-}
