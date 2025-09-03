@@ -170,6 +170,7 @@ font-family: var(--fuente-principal);
   margin: auto;
   border-radius: var(--borde-radio);
   display: block;  
+  transform: rotate(90deg);
 }
 
 /*Nosotros*/
@@ -201,3 +202,54 @@ font-family: var(--fuente-principal);
 }
 /*contacto*/
 
+.contacto{
+  display: grid;
+  justify-items: center;
+}
+.contacto-info h2{
+  font-size: var(--font-size-h2);
+  padding: 1rem 2rem;
+}
+
+.contacto-info p{
+  font-size: var(--font-size-p);
+  padding: 0rem 2rem;
+  position: relative;
+  color: #fff;
+}
+
+.contacto iframe{
+  justify-content: center;
+  padding: 1rem;
+}
+.contacto form {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 2rem;
+  gap: 1rem;
+  font-family: var(--fuente-principal);
+  border: 1px solid #ccc;
+  border-radius: 1rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+  font-size: 1.3rem;
+  inline-size: 35rem;
+  margin-block-end: 1rem ;
+}
+
+.contacto button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 1rem;
+  background-color: var(--color-primario);
+  color: var(--color-texto);
+  font-size: 1.3rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  inline-size: 15rem;
+  align-self: center;
+}
+
+.contacto button:hover {
+  background-color: var(--color-hover);
+}

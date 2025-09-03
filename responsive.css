@@ -125,8 +125,11 @@
     margin: 0 auto;
   }
   /*contacto*/
-  
-/*footer*/
+  .contacto {
+  grid-template-columns: 1fr;
+  padding: 1rem;
+  }
+  /*footer*/
 .footer-content{
  grid-template-columns:  1fr;
  text-align: center;
