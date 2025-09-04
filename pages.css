@@ -256,7 +256,7 @@ font-family: var(--fuente-principal);
 
 /*servicio*/
 
-.servicio{
+.serviciop{
   display: grid;
     grid-template-columns: 1fr 1fr ;      /* Espacio entre divs */
   position: relative;
@@ -276,7 +276,7 @@ font-family: var(--fuente-principal);
   position: relative;
   color: #fff;
 }
-.servicio img{
+.serviciop img{
   padding: 1rem;
   border-radius: var(--borde-radio);
   max-inline-size: 100%;  /* que no se pase del ancho de la columna */
