@@ -159,6 +159,105 @@ inline-size: 100%;
     font-size: 1rem;
     align-self: center;
 }
+/*servicio*/
+.serviciop{
+  display: grid;
+    grid-template-columns: 1fr ;      /* una sola columna */    
+  position: relative;
+  inline-size: 90%; 
+  max-inline-size: 400px;
+  margin: 0 auto;
+  gap: 2rem;
+}
+.servicio-info h1{
+  font-size: var( --font-size-reponsive-h1);
+  padding: 1rem 1rem;
+  text-align: center;
+}
+.servicio-info p{
+  font-size: var( --font-size-responsive-p);
+  padding: 0rem 1rem;
+  position: relative;
+  color: #fff;
+  text-align: center;
+}
+
+
+.serviciop img{
+  padding: 1rem;
+  border-radius: var(--border-radio-responsive);
+  max-inline-size: 100%;  /* que no se pase del ancho de la columna */
+  block-size: auto;     /* mantener proporción */
+  display: block;
+  margin: 0 auto;
+}
+
+.cita h2{
+  font-size: var( --font-size-resposive-h2);
+  padding: 0.5rem 1rem;
+  text-align: center;
+}
+.cita h3{
+  font-size: var( --font-size-resposive-h3);
+  padding: 0.5rem 1rem;
+  text-align: center;
+}
+.cita p{
+  font-size: var( --font-size-responsive-p);
+  padding: 0rem 1rem;
+
+  position: relative;
+  text-align: center;
+}
+.sala h2{
+  font-size: var( --font-size-resposive-h2);
+  padding: 0.5rem 1rem;
+  text-align: center;
+}
+.sala h3{
+  font-size: var( --font-size-resposive-h3);
+  padding: 0.5rem 1rem;
+  text-align: center;
+}
+.sala p{
+  font-size: var( --font-size-responsive-p);
+  padding: 0rem 1rem;
+  position: relative;
+  text-align: center;
+}
+.ambiente h2{
+  font-size: var( --font-size-resposive-h2);
+  padding: 0.5rem 1rem;
+  text-align: center;
+}
+.ambiente h3{
+  font-size: var( --font-size-resposive-h3);
+  padding: 0.5rem 1rem;
+  text-align: center;
+}
+.ambiente p{
+  font-size: var( --font-size-responsive-p);
+  padding: 0rem 1rem;
+  position: relative;
+  text-align: center;
+}
+.evento h2{
+  font-size: var( --font-size-resposive-h2);
+  padding: 0.5rem 1rem;
+  text-align: center;
+}
+.evento h3{
+  font-size: var( --font-size-resposive-h3);
+  padding: 0.5rem 1rem;
+  text-align: center;
+}
+.evento p{
+  font-size: var( --font-size-responsive-p);
+  padding: 0rem 1rem;
+  position: relative;
+  text-align: center;
+}
+
 
   
   /*footer*/
